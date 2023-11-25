@@ -106,9 +106,9 @@ function sbloccaSfida(sfida){
 			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo. O il loro terrore";
 		
 			text = "Mettere a terra al massimo il seguente numero di parti del corpo a terra. Una persona dovrà fare le foto. \n"+
-				"- 2 PIEDI, UN GOMITO \n"+
-				"- 1 PIEDE, 3 GINOCCHIA \n"+
-				"- 6 MANI, 2 PIEDI \n";
+				"- 2 PIEDI \n"+
+				"- 1 PIEDE, 32GINOCCHIA \n"+
+				"- 4 MANI, 1 PIEDE \n";
 			
 			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
