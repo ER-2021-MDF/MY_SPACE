@@ -156,7 +156,7 @@ function sbloccaSfida(sfida){
 		break;
 		
 		// ----- PER I LUOGHI ----- 
-		case "xarsenale":
+		case "donpedro":
 			title = "L\u0027ARSENALE";
 			
 			img = "arsenale.png";
@@ -171,7 +171,7 @@ function sbloccaSfida(sfida){
 			
 		break;
 		
-		case "xpiazza":
+		case "topolore":
 			title = "LA PIAZZA";
 			
 			img = "duomo.png";
@@ -185,7 +185,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xtribunale":
+		case "beccatele":
 			title = "IL TRIBUNALE";
 			
 			img = "tribunale.png";
@@ -199,7 +199,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xmercato":
+		case "aghislove":
 			title = "IL MERCATO";
 			
 			img = "mercato.png";
@@ -213,7 +213,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xpalazzo":
+		case "pussyasco":
 			title = "IL PALAZZO";
 			
 			img = "palazzo.png";
@@ -228,7 +228,7 @@ function sbloccaSfida(sfida){
 			
 		break;
 		
-		case "xmarconi":
+		case "ciabatta":
 			title = "LA RIUNIONE";
 
 			img = "marconi2.png";
@@ -278,6 +278,19 @@ function sbloccaSfida(sfida){
 			indizio = "Scrivi start e premi OK, poi dopo non scrivere Bubi ma inserisci la password che vi \u00E8 stata data sul biglietto";
 			
 			break;
+
+		case "uccellato":
+			title = "VITTORIA"
+			
+			img = "";
+			
+			desc = "Fine";
+			
+			text = "Le missioni sono finite, torna subito alla base"
+					
+			indizio = "";
+			
+		break;
 			
 		default:
 			alert("PASSWORD ERRATA");
