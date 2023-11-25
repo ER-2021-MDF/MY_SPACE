@@ -85,7 +85,7 @@ function sbloccaSfida(sfida){
 			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";			
 		break;
 		
-		case "cpia5torino.edu.it":
+		case "cpia5torinoeduit":
 			title = "IL DISCORSO";
 			
 			img = "";
