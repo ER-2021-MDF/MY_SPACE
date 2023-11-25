@@ -78,35 +78,37 @@ function sbloccaSfida(sfida){
 			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
 					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
-					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
-					"I componenti della squadra faranno un giro a testa a mo di staffetta, anche chi è stato scelto per filmare. "+
-					"Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. "+
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
+					"I componenti della squadra faranno un giro a testa a mo di staffetta. " +
 					"Se barate lo fate di nuovo :)";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
 		
-		case "besialegermano":
+		case "cpia5torino.edu.it":
 			title = "IL DISCORSO";
 			
 			img = "";
 		
-			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
+			desc = "Meglio un culo gelato che un gelato nel culo. No forse non era cos\u00EC. Scrivi tu dai";
 		
-			text = "Scrivi una poesia con rima baciata al sovrano, minimo 16 versi usando le parole: intelligenza, maest\u00E0, segreto, tarallo, scafazzare";
+			text = "Scrivi una poesia con rima baciata sulla libert\u00E0 di 14 versi usando le parole: "+
+				"comunitroia, finocchio, segreto, tarallo, scafazzare, incapace circonvenuto, liceo matematico";
 			
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "cpia5torino.edu.it":
-			title = "TRIBUNALE";
+		case "besialegermano":
+			title = "IL GIUSTO APPOGGIO";
 			
 			img = "";
 		
-			desc = "Descrizione da scrivere";
+			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo. O il loro terrore";
 		
-			text = "Prova da scrivere";
+			text = "Mettere a terra al massimo il seguente numero di parti del corpo a terra. Una persona dovrà fare le foto. \n"+
+				"- 2 PIEDI, UN GOMITO \n"+
+				"- 1 PIEDE, 3 GINOCCHIA \n"+
+				"- 6 MANI, 2 PIEDI \n";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -116,23 +118,27 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Noi siamo ovunque";
+			desc = "Noi siamo ovunque ma non ci troverai mai";
 		
-			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Jasmine. "+
+			text = "Nascondersi il nemico in questa guerra \u00E8 un\u0027arte fondamentale. E quindi lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Yasmine. "+
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
 					"locale con il travestimento addosso. Sulla stagnola scrivete \'SENZA PICCANTE, SENZA CIPOLLA, SENZA CARNE E SENZA IMPASTO\'";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "aibambinichestannocrescendo?":
+		case "aibambinichestannocrescendo":
 			title = "IL PALAZZO";
 			
 			img = "";
 		
 			desc = "Solo chi \u00E8 pronto al sacrificio pu\u00F2 aspirare a diventare un leader";
 		
-			text = "Prova da scirvere";
+			text = " Come da tradizione, ogni leader che si rispetti e che ambisca a governare deve dimostrare la propria forza "+
+				"e di essere disposto a sacrificarsi. La tradizione vuole che venga quindi offerta in sacrificio una parte di s\u00E8. "+
+				"Ma non siamo barbari, niente taglio delle dita o delle orecchie: una ceretta ad un uomo andr\u00E0 pi\u00F9 che bene. A seguire, "+
+				"chi non ha preso parte alla ceretta, deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovr\u00E0 sculacciare "+
+				"in modo divertente un ragazzo. Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -142,9 +148,9 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Io sono la voce del popolo";
+			desc = "La voce del popolo\u003F Non esiste, ognuno ha la propria voce";
 		
-			text = "Prova da scirvere";
+			text = "Intervista un uomo che non conosci, chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. Filma il tutto ";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -168,7 +174,7 @@ function sbloccaSfida(sfida){
 		case "xpiazza":
 			title = "LA PIAZZA";
 			
-			img = "piazza.png";
+			img = "duomo.png";
 		
 			desc = "";
 		
@@ -188,7 +194,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "targa commemorativa, quinto cognome e nome colonna di destra";
+			indizio = "Email: sedepinerolo@ ... ";
 			
 			immagine = true;
 		break;
@@ -202,7 +208,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Via Trieste 8, cognomi del campanello 3P (lato sinistro)";
+			indizio = "Via Trieste 8, cognomi del campanello 2P del lato sinistro";
 			
 			immagine = true;
 		break;
@@ -221,6 +227,20 @@ function sbloccaSfida(sfida){
 			immagine = true;
 			
 		break;
+		
+		case "xmarconi":
+			title = "LA RIUNIONE";
+
+			img = "marconi2.png";
+
+			desc = "";
+
+			text = "";
+
+			indizio = "Targa commemorativa quinto cognome e nome colonna destra";
+
+			immagine = true;
+
 		
 		// ----- PER IL TUTORIAL ----- 
 		
