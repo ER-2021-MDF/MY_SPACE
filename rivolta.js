@@ -241,6 +241,8 @@ function sbloccaSfida(sfida){
 
 			immagine = true;
 
+		break;
+
 		
 		// ----- PER IL TUTORIAL ----- 
 		
